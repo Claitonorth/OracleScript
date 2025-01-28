@@ -1,0 +1,2 @@
+Preciso conseguir executar a VIEW no banco Oracle, passado o parâmetro DATA_LIMITE_OC como variável em tempo de execução, mas não posso criar função de banco, porque a ferramenta que o usuário irá utilizar para executar a view permite somente consultas via select simples, não estou conseguindo pois ocorre erro na execução ORA-01858, pois o banco não está reconhecendo o parâmetro ":DATA_LIMITE_OC" e acaba jogando o ":" junto na variável, mesmo eu formatando como TO_DATE.
+exemplo:(SELECT * FROM VW_CO_SALDO_CABEDAL_CHINA WHERE DATA_LIMITE_OC = '30-01-2025')
