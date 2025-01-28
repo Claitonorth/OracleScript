@@ -1,4 +1,3 @@
-Tenho a view abaixo funcionando corretamente no banco Oracle, porém está ocorrendo o erro ORA-1858 quando faço select da view exemplo:(SELECT * FROM VW_CO_SALDO_CABEDAL_CHINA WHERE DATA_LIMITE_OC = '30-01-2025')
 CREATE OR REPLACE VIEW VW_CO_SALDO_CABEDAL_CHINA AS
  WITH REMESSAS AS (
              SELECT COD_ITEM
